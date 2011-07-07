@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>LabelSlide</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.abart997.labelslide</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>postNotification</key>
+			<string>com.abart997.labelslide/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Label Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.abart997.labelslide</string>
+			<key>key</key>
+			<string>customText</string>
+			<key>label</key>
+			<string>Custom Label</string>
+			<key>PostNotification</key>
+			<string>com.abart997.labelslide/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.abart997.labelslide</string>
+			<key>key</key>
+			<string>label</string>
+			<key>placeholder</key>
+			<string>Custom label</string>
+			<key>PostNotification</key>
+			<string>com.abart997.labelslide/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>More</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.abart997.labelslide</string>
+			<key>key</key>
+			<string>thetime</string>
+			<key>label</key>
+			<string>Time</string>
+			<key>PostNotification</key>
+			<string>com.abart997.labelslide/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>alignment</key>
+			<integer>1</integer>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Follow me on Twitter for news and updates: @abart997</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LabelSlide © 2011 Andrea Oliva.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LabelSlide</string>
+</dict>
+</plist>
